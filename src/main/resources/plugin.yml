@@ -1,0 +1,14 @@
+name: YourCountry
+version: ${project.version}
+main: io.github.smile_ns.yourcountry.YourCountry
+api-version: 1.16
+
+commands:
+  country:
+    usage: /country [args]
+  flag:
+    usage: /flag [args]
+
+permissions:
+  country:
+    default: op
